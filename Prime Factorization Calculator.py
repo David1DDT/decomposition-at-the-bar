@@ -1,7 +1,7 @@
 class number():
     def __init__(self, value):
         self.value = value
-    def decompositionatthebar(self):
+    def PrimeFactorizationCalculator(self):
         temp = self.value
         primefactorslist = []
         while temp != 1:
@@ -13,7 +13,7 @@ class number():
         return primefactorslist
 
 
-num = number(int(input("decomposition at the bar: ")))
-print(num.decompositionatthebar())
+num = number(int(input("Prime Factorization Calculator: ")))
+print(num.PrimeFactorizationCalculator())
 
                 
